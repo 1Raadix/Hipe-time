@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+}
+
+.Raad-widget {
+  position: fixed;
+  top: 50px;
+  right: 15px;
+  /* Finalizing position */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(18, 18, 24, 0.75);
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}
+
+.Raad-content {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  /* Increased gap between date and time */
+}
+
+#Raad-date {
+  font-weight: 500;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#Raad-time {
+  font-weight: 800;
+  /* Bolder time to match image */
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.Raad-accent {
+  width: 3px;
+  height: 20px;
+  background: #36f3c4;
+  border-radius: 1px;
+}
